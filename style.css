@@ -1,0 +1,54 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Roboto", Arial, Helvetica;
+}
+
+.convite-container {
+  height: 100vh;
+}
+
+.convite {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.botoes {
+  display: flex;
+  gap: 50px;
+}
+
+.botao {
+  font-size: 2rem;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.425);
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+#sim,
+#nao {
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#sim {
+  background-color: chartreuse;
+  border: 1px solid rgb(55, 110, 0);
+  color: rgb(31, 61, 0);
+}
+#nao {
+  background-color: crimson;
+  border: 1px solid rgb(165, 10, 41);
+  color: rgb(255, 237, 240);
+
+  /* color: white; */
+}
