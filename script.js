@@ -1,4 +1,5 @@
 const botaoNao = document.getElementById("nao");
+const botaoSim = document.getElementById("sim");
 let contaClick = 0;
 
 console.log(Math.random());
@@ -20,9 +21,4 @@ function moverAleatorio() {
   }
 }
 
-function aceitou() {
-  alert("te mando mensagem com mais detalhes ");
-}
-
 botaoNao.addEventListener("click", moverAleatorio);
-botaoSim.addEventListener("click", aceitou);

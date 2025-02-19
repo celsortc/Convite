@@ -52,3 +52,39 @@ h1 {
 
   /* color: white; */
 }
+
+#sim:hover {
+  background-color: rgb(102, 204, 0);
+}
+#nao:hover {
+  background-color: rgb(150, 12, 39);
+}
+
+/* Pagina Final */
+
+.final-container {
+  height: 100vh;
+}
+
+.final {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.final-h1 {
+  max-width: 600px;
+}
+
+/* Se a largura da tela for menor que 800px */
+@media (max-width: 800px) {
+  .final-h1 {
+    font-size: 2rem;
+  }
+  .inicio-h1 {
+    font-size: 3rem;
+  }
+}
