@@ -17,6 +17,7 @@ function moverAleatorio() {
   contaClick++;
 
   if (contaClick === 5) {
+    //com 5 cliques no não ele solta um alert
     alert("acho que a outra opção é melhor..");
   }
 }
